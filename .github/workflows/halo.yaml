@@ -1,6 +1,7 @@
 name: Halo Workflow
 
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - main
